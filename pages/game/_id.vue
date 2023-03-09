@@ -4,6 +4,7 @@
       <div v-if="loading" class="text-center">Loading...</div>
       <div v-else>
         <p>{{ game.short_description }}</p>
+        <img :src="game.thumbnail" alt="">
       </div>
     </div>
   </template>
