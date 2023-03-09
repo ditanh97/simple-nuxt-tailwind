@@ -55,5 +55,19 @@ export default {
         noInfo: true,
       },
     },
-  }
+  },
+  routes: [
+    {
+      path: '/',
+      component: '~/pages/index.vue'
+    },
+    {
+      path: '/add-game',
+      component: '~/components/AddGameForm.vue'
+    },
+    {
+      path: '/game/:id',
+      component: '~/pages/game/_id.vue'
+    },
+  ]
 }
